@@ -1,0 +1,17 @@
+    1  yum install git
+    2  yum install httpd -y
+    3  systemctl status httpd
+    4  systemctl start httpd
+    5  systemctl status httpd
+    6  cd /var/
+    7  ls
+    8  cd www/
+    9  ld
+   10  ls
+   11  cd html/
+   12  ls
+   13  vim index.html
+   14  ls
+   15  systemctl start httpd
+   16  cd
+   17  history
